@@ -1,2 +1,2 @@
 # LeetCode-JUNE-Challange
-Solved LeetCode problems to excel in coding interviews!
+Practice with a variety of algorithm and data structure challenges.
