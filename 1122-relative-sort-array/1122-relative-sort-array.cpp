@@ -7,7 +7,6 @@ public:
         {
             map[num]++;
         }
-        
         vector<int> result;
         for (int num : arr2)
         {
@@ -17,7 +16,6 @@ public:
                 map[num]--;
             }
         }
-        
         vector<int> element;
         for (const auto& entry : map)
         {
@@ -29,7 +27,6 @@ public:
                 count--;
             }
         }
-        
         sort(element.begin(), element.end());
         result.insert(result.end(), element.begin(), element.end());
         return result;
